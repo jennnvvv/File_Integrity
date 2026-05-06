@@ -23,3 +23,14 @@
 2026-05-06 10:30:31,220 - INFO - Scan completed: {'modified': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'new': [], 'deleted': [], 'unchanged': []}
 2026-05-06 10:30:50,726 - INFO - Scan completed: {'modified': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'new': [], 'deleted': [], 'unchanged': []}
 2026-05-06 10:35:05,805 - INFO - Scan completed: {'modified': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'new': [], 'deleted': [], 'unchanged': []}
+2026-05-06 05:15:13,406 - INFO - Scan completed: {'modified': [], 'new': ['/app/test_folder/hello.txt'], 'deleted': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'unchanged': []}
+2026-05-06 10:46:54,149 - INFO - Scan completed: {'modified': [], 'new': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\newhello.txt'], 'deleted': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'unchanged': []}
+2026-05-06 10:48:19,512 - INFO - Initialized hashes
+2026-05-06 10:48:35,045 - INFO - Initialized hashes
+2026-05-06 10:48:37,180 - INFO - Initialized hashes
+2026-05-06 10:48:38,169 - INFO - Initialized hashes
+2026-05-06 10:48:39,112 - INFO - Initialized hashes
+2026-05-06 10:48:40,045 - INFO - Initialized hashes
+2026-05-06 10:48:47,317 - INFO - Initialized hashes
+2026-05-06 10:48:55,149 - INFO - Scan completed: {'modified': [], 'new': [], 'deleted': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt'], 'unchanged': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\newhello.txt']}
+2026-05-06 10:50:03,414 - INFO - Scan completed: {'modified': [], 'new': [], 'deleted': [], 'unchanged': ['C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\newhello.txt', 'C:\\Users\\JENNESSA\\Desktop\\devops\\File _Integrity_Checker\\test_folder\\hello.txt']}
