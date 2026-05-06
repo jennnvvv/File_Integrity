@@ -361,8 +361,9 @@ This project helped in understanding:
 
 # Contributors
 
-* Jennessa
-* Team Member
+* Jennessa Valder - 4NI23CS071
+* Saloni Kumari - 4NI23CS255
+  
 
 ---
 
