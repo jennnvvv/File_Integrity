@@ -1,3 +1,0 @@
-System Log Initialized
-User authentication failed
-Integrity violations are detected

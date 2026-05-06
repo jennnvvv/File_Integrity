@@ -60,7 +60,7 @@ def update(file_path):
     }
 
     save_db(db)
-    print("Hash updated successfully.")
+    print("Hash updated successfully. The data is stored, initializing tracking")
 
 
 def run():
