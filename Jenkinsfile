@@ -16,11 +16,6 @@ pipeline {
             }
         }
 
-        stage('Initialize Database') {
-            steps {
-                bat 'docker run -v %cd%:/app integrity-checker python main.py init test_folder'
-            }
-        }
 
         stage('Run Integrity Check') {
             steps {
