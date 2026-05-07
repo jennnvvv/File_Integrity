@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/jennnvvv/File_Integrity'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                bat 'docker build -t integrity-checker .'
+            }
+        }
+
+        stage('Initialize Database') {
+            steps {
+                bat 'docker run -v %cd%:/app integrity-checker python main.py init test_folder'
+            }
+        }
+
+        stage('Run Integrity Check') {
+            steps {
+                bat 'docker run -v %cd%:/app integrity-checker python main.py check test_folder'
+            }
+        }
+    }
+}
