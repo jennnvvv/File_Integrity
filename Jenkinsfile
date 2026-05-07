@@ -5,7 +5,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/jennnvvv/File_Integrity'
+                git branch: 'main',
+                url: 'https://github.com/jennnvvv/File_Integrity.git'
             }
         }
 
