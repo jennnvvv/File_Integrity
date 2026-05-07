@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = "your_email@gmail.com"
-EMAIL_PASSWORD = "your_app_password"
-EMAIL_RECEIVER = "receiver_email@gmail.com"
+EMAIL_SENDER = "2023cs_jennessajoellavalder_a@nie.ac.in"
+EMAIL_PASSWORD = "igar uzkw gtki wtlv"
+EMAIL_RECEIVER = "jennvalder2004@gmail.com"
 
 
 def send_alert(message):
