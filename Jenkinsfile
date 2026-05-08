@@ -15,16 +15,16 @@ pipeline {
                 bat 'docker build -t integrity-checker .'
             }
         }
-
         stage('Initialize Database') {
             steps {
-                bat 'docker run --rm -v "%WORKSPACE%:/app" integrity-checker python main.py init test_folder'
+                bat 'docker run -v C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\FileIntegrityPipeline:/app integrity-checker python main.py init test_folder'
             }
         }
 
+
         stage('Run Integrity Check') {
             steps {
-                bat 'docker run --rm -v "%WORKSPACE%:/app" integrity-checker python main.py check test_folder'
+                bat 'docker run -v %cd%:/app integrity-checker python main.py check test_folder'
             }
         }
     }
